@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-.grayscale {
-  filter: grayscale(1);
+*, html, body {
+  font-family: 'Cadiz Book';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-family: 'Tobias';
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h2 {
+  font-family: 'Tobias';
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h3 {
+  font-family: 'Tobias';
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
 }
