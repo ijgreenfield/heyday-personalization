@@ -4,6 +4,7 @@
 
 *, html, body {
   font-family: 'Cadiz Book';
+  color: #35383D;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,4 +33,11 @@ h3 {
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
+}
+
+h4 {
+  font-family: 'Tobias';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
