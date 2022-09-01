@@ -21,7 +21,7 @@ export default function ThreeColumn(props) {
     ]
 
     return (
-        <section className={`py-8 bg-${props.bgColor}`}>
+        <section className={`py-8 bg-[#f9f4f0]`}>
             <div className='container'>
                 <div className='text-center'>
                     <div>
@@ -37,7 +37,6 @@ export default function ThreeColumn(props) {
                                         layout="fill"
                                         objectFit="cover"
                                         className="rounded"
-                                        unoptimized
                                     />
                                 </div>
                                 <h4>{col.copy}</h4>

@@ -10,7 +10,7 @@ Builder.registerComponent(LazyThreeColumn, {
     inputs: [
         { name: 'heading', type: 'string'},
         { name: 'description', type: 'string'},
-        { name: 'bgColor', type: 'string'},
+        { name: 'bgColor', type: 'boolean'},
         { name: 'image1', type: 'string'},
         { name: 'image2', type: 'file'},
         { name: 'image3', type: 'file'},

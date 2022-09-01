@@ -84,15 +84,12 @@ export default function Path({ page, attributes, locale }: InferGetStaticPropsTy
         }}
       />
       {(isPreviewingInBuilder || page) ? (
-        <>
         <BuilderComponent
           context={{ attributes }}
           data={{ attributes, locale }}
           model="page"
           content={page}
         />
-        <Footer />
-        </>
       ) : (
         <DefaultErrorPage statusCode={404} />
       )}
