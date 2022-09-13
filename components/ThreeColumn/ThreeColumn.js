@@ -37,7 +37,6 @@ export default function ThreeColumn(props) {
                                         layout="fill"
                                         objectFit="cover"
                                         className="rounded"
-                                        unoptimized
                                     />
                                 </div>
                                 <h3>{col.copy}</h3>
