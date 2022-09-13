@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic'
 import { Builder } from "@builder.io/react";
 
 const LazyCTA = dynamic(async () => {
-    return (await import('./CTASection.js')).default
+    return (await import('./CtaSection.js')).default
   })
 
 Builder.registerComponent(LazyCTA, { 
