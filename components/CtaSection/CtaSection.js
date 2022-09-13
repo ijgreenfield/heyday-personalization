@@ -1,12 +1,12 @@
 import Button from "@components/Button"
 
-export default function CtaSection(props) {
+export default function CTASection(props) {
     return (
-        <section className={`bg-[${props.bgColor}] py-8 text-center`}>
+        <section className={`bg-[#E3C5AF] py-8 text-center`}>
             <div className="container">
                 <div>
                     <div>
-                        <h3 className='mb-6'>{props.heading}</h3>
+                        <h2 className='mb-8'>{props.heading}</h2>
                         <p>{props.description}</p>
                     </div>
                     <div>

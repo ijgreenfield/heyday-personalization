@@ -21,7 +21,7 @@ export default function ThreeColumn(props) {
     ]
 
     return (
-        <section className={`py-8 bg-[#f9f4f0]`}>
+        <section className={`bg-[#f9f4f0]`}>
             <div className='container'>
                 <div className='text-center'>
                     <div>
@@ -30,16 +30,17 @@ export default function ThreeColumn(props) {
                     </div>
                     <div>
                         {columns.map (col => (
-                            <div col={col}>
+                            <div col={col} className="mt-8">
                                 <div className="relative w-full h-40 my-4">
                                     <Image 
                                         src={col.image}
                                         layout="fill"
                                         objectFit="cover"
                                         className="rounded"
+                                        unoptimized
                                     />
                                 </div>
-                                <h4>{col.copy}</h4>
+                                <h3>{col.copy}</h3>
                             </div>
                         ))}
                     </div>

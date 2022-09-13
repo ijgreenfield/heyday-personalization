@@ -12,7 +12,6 @@ import Head from 'next/head'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import { parsePersonalizedURL } from '@builder.io/personalization-utils/next'
 import { useEffect } from 'react'
-import Footer from '@components/Footer/Footer'
 
 builder.init(builderConfig.apiKey)
 
