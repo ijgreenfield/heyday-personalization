@@ -2,7 +2,7 @@ import type { AppProps } from 'next/app';
 import { builder } from '@builder.io/react';
 import builderConfig from '../config/builder';
 import Layout from '@components/Layout/layout';
-import "../components/CTASection/CtaSection.builder";
+import "../components/CTASection/CTASection.builder";
 import "../components/Testimonials/Testimonials.builder";
 import "../components/ThreeColumn/ThreeColumn.builder";
 import "../components/Hero/Hero.builder";
